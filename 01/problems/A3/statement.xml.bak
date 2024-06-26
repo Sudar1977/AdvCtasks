@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A3"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Сумма трех чисел</title>
+    <description>Ввести три числа, найти их сумму.
+</description>
+    <input_format>Три целых числа
+</input_format>
+    <output_format>Строка вида %d+%d+%d=%d
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>4 5 7
+</input>
+      <output>4+5+7=16
+</output>
+    </example>
+    <example>
+      <input>1 2 3
+</input>
+      <output>1+2+3=6
+</output>
+    </example>
+  </examples>
+</problem>

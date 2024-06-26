@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A9"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Наибольшее из пяти чисел</title>
+    <description>Ввести пять чисел и найти наибольшее из них.
+</description>
+    <input_format>Пять целых чисел разделенных пробелом
+</input_format>
+    <output_format>Одно целое число
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input></input>
+      <output></output>
+    </example>
+  </examples>
+</problem>

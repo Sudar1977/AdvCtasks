@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A0"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Задача A0</title>
+    <description><p>На стандартном потоке вывода напечатайте Hello world!.
+</p>
+</description>
+  </statement>
+  <examples>
+    <example>
+      <input></input>
+      <output>Hello world!
+</output>
+    </example>
+  </examples>
+</problem>

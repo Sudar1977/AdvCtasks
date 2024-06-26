@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A10"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Наименьшее из пяти чисел</title>
+    <description>Ввести пять чисел и найти  наименьшее из них.
+</description>
+    <input_format>Пять целых чисел
+</input_format>
+    <output_format>Одно целое число
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>4    15    9    56    4
+</input>
+      <output>4
+</output>
+    </example>
+  </examples>
+</problem>

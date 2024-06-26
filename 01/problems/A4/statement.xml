@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A4"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Сумма и произведение трех чисел</title>
+    <description>Ввести три числа, найти их сумму и произведение.
+</description>
+    <input_format>Три целых числа через пробел.
+</input_format>
+    <output_format>Строка вида<br/>
+%d+%d+%d=%d<br/>
+%d*%d*%d=%d
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>1 2 3
+</input>
+      <output>1+2+3=6
+1*2*3=6
+</output>
+    </example>
+    <example>
+      <input>4 5 7
+</input>
+      <output>4+5+7=16
+4*5*7=140
+</output>
+    </example>
+  </examples>
+</problem>

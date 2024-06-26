@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A19"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Существует ли треугольник</title>
+    <description>Даны стороны треугольника a, b, c. Определить   существует ли такой треугольник.
+</description>
+    <input_format>Три целых числа. Стороны треугольника a, b, c.
+</input_format>
+    <output_format>YES или NO
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>3 2 4
+</input>
+      <output>YES
+</output>
+    </example>
+  </examples>
+</problem>

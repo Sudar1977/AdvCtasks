@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A12"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Сумма цифр</title>
+    <description>На вход подается произвольное трехзначное число, напечать сумму цифр
+</description>
+    <input_format>Трехзначное целое положительное число
+</input_format>
+    <output_format>Одно целое число
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>435
+</input>
+      <output>12
+</output>
+    </example>
+    <example>
+      <input></input>
+      <output></output>
+    </example>
+  </examples>
+</problem>

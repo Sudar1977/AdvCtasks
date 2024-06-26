@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A1"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Let;s go</title>
+    <description>Вывести на экран текст "лесенкой"
+<pre>
+	 Let’s
+           go
+               to walk
+</pre>
+</description>
+  </statement>
+</problem>

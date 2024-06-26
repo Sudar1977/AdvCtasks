@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A5"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Среднее арифметическое трех чисел</title>
+    <description>Ввести три числа, найти их  среднее арифметическое.
+</description>
+    <input_format>Три целых числа
+</input_format>
+    <output_format>Вещественное число в формате %.2f
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>4 5 7
+</input>
+      <output>5.33
+</output>
+    </example>
+    <example>
+      <input>1 2 3
+</input>
+      <output>2.00
+</output>
+    </example>
+  </examples>
+</problem>

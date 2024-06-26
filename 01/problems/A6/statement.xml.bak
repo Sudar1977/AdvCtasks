@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A6"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Разность двух чисел</title>
+    <description>Ввести два числа и найти их разность.
+</description>
+    <input_format>Два целых числа
+</input_format>
+    <output_format>Ответ - одно целое число
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>4 5
+</input>
+      <output>-1
+</output>
+    </example>
+    <example>
+      <input></input>
+      <output></output>
+    </example>
+  </examples>
+</problem>

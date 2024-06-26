@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A7"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Наибольшее из двух чисел</title>
+    <description>Ввести два числа и вывести их в порядке возрастания.
+</description>
+    <input_format>Два целых числа
+</input_format>
+    <output_format>Два целых числа
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input></input>
+      <output></output>
+    </example>
+  </examples>
+</problem>

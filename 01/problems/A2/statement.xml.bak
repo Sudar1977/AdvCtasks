@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A2"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Домик</title>
+    <description>Вывести на экран рисунок из букв
+<pre>
+	 *
+        ***
+       *****
+      *******
+         HHOHH
+     ZZZZZ
+</pre>
+</description>
+  </statement>
+</problem>
