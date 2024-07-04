@@ -4,16 +4,40 @@
         id="A2"
         type="standard">
   <statement language="ru_RU">
-    <title>Домик</title>
-    <description>Вывести на экран рисунок из букв
-<pre>
-	 *
-        ***
-       *****
-      *******
-         HHOHH
-     ZZZZZ
-</pre>
+    <title>Циклический сдвиг</title>
+    <description>На вход программе подается беззнаковое 32-битное целое число N и натуральное число K (1 ≤ K ≤ 31). Требуется циклически сдвинуть битычисла N вправо на K битов и вывести полученное таким образом число.
 </description>
   </statement>
+  <examples>
+    <example>
+      <input>2 1
+</input>
+      <output>1
+</output>
+    </example>
+    <example>
+      <input>1 2
+</input>
+      <output>1073741824
+</output>
+    </example>
+    <example>
+      <input>3 1
+</input>
+      <output>2147483649
+</output>
+    </example>
+    <example>
+      <input>12 2
+</input>
+      <output>3
+</output>
+    </example>
+    <example>
+      <input>19 3
+</input>
+      <output>1610612738
+</output>
+    </example>
+  </examples>
 </problem>

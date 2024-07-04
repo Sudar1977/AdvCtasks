@@ -4,18 +4,34 @@
         id="A9"
         type="standard">
   <statement language="ru_RU">
-    <title>Наибольшее из пяти чисел</title>
-    <description>Ввести пять чисел и найти наибольшее из них.
+    <title>Распаковать порядок</title>
+    <description>Необходимо реализовать только одну функцию, которой на входе передаётся вещественное число в типе float, она возвращает порядок который хранится в поле EXP в виде десятичного целого числа. Функция должна строго соответствовать прототипу int extractExp(float)
 </description>
-    <input_format>Пять целых чисел разделенных пробелом
-</input_format>
-    <output_format>Одно целое число
-</output_format>
   </statement>
   <examples>
     <example>
-      <input></input>
-      <output></output>
+      <input>1.0
+</input>
+      <output>127
+</output>
+    </example>
+    <example>
+      <input>2.0
+</input>
+      <output>128
+</output>
+    </example>
+    <example>
+      <input>3.99999
+</input>
+      <output>128
+</output>
+    </example>
+    <example>
+      <input>0.001
+</input>
+      <output>117
+</output>
     </example>
   </examples>
 </problem>

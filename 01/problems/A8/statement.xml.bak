@@ -4,18 +4,33 @@
         id="A8"
         type="standard">
   <statement language="ru_RU">
-    <title>Наибольшее из трех чисел</title>
-    <description>Ввести три числа и найти наибольшее из них
-</description>
-    <input_format>Три целых числа через пробел
-</input_format>
-    <output_format>Одно наибольшее целое число
-</output_format>
+    <title>Упаковать массив</title>
+    <description>В программе реализована структура данных:
+struct pack_array {
+uint32_t array; // поле для хранения упакованного массива из 0 и 1
+uint32_t count0 : 8; // счетчик нулей в array
+uint32_t count1 : 8; // счетчик единиц в array
+}
+Необходимо реализовать только одну функцию (всю программу писать не надо!!!), которая упаковывает переданный ей массив из 32-ух
+элементов 0 и 1 в указанную структуру данных.
+Функция должна строго соответствовать прототипу: void array2struct(int [], struct pack_array *)</description>
   </statement>
   <examples>
     <example>
-      <input></input>
-      <output></output>
+      <input>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+</input>
+      <output>array = ffff0000
+count0 = 16
+count1 = 16
+</output>
+    </example>
+    <example>
+      <input>1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1
+</input>
+      <output>array = ffa70009
+count0 = 17
+count1 = 15
+</output>
     </example>
   </examples>
 </problem>

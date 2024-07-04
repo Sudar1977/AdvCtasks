@@ -4,25 +4,27 @@
         id="A5"
         type="standard">
   <statement language="ru_RU">
-    <title>Среднее арифметическое трех чисел</title>
-    <description>Ввести три числа, найти их  среднее арифметическое.
+    <title>Подсчет битов</title>
+    <description>На вход программе подается беззнаковое 32-битное целое число N. Требуется найти количество единичных битов в двоичном представлении данного числа.
 </description>
-    <input_format>Три целых числа
-</input_format>
-    <output_format>Вещественное число в формате %.2f
-</output_format>
   </statement>
   <examples>
     <example>
-      <input>4 5 7
+      <input>15
 </input>
-      <output>5.33
+      <output>4
 </output>
     </example>
     <example>
-      <input>1 2 3
+      <input>16
 </input>
-      <output>2.00
+      <output>1
+</output>
+    </example>
+    <example>
+      <input>17
+</input>
+      <output>2
 </output>
     </example>
   </examples>

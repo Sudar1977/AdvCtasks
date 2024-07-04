@@ -4,15 +4,22 @@
         id="A0"
         type="standard">
   <statement language="ru_RU">
-    <title>Задача A0</title>
-    <description><p>На стандартном потоке вывода напечатайте Hello world!.
+    <title>Сколько раз встречается максимум</title>
+    <description><p>На стандартном потоке ввода задаётся натуральное число N (N > 0), после которого следует последовательность из N целых чисел.На стандартный поток вывода напечатайте, сколько раз в этой последовательности встречается максимум. Указание: использовать массивы запрещается.
 </p>
 </description>
   </statement>
   <examples>
     <example>
-      <input></input>
-      <output>Hello world!
+      <input>6 1 2 3 2 0 3
+</input>
+      <output>2
+</output>
+    </example>
+    <example>
+      <input>3 5 2 -1
+</input>
+      <output>1
 </output>
     </example>
   </examples>

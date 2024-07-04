@@ -4,24 +4,28 @@
         id="A6"
         type="standard">
   <statement language="ru_RU">
-    <title>Разность двух чисел</title>
-    <description>Ввести два числа и найти их разность.
+    <title>-Инверсия старших</title>
+    <description>На вход программе подается беззнаковое 32-битное целое число N. Требуется изменить значения всех битов старшего байта числа на противоположные и вывести полученное таким образом число.
 </description>
-    <input_format>Два целых числа
-</input_format>
-    <output_format>Ответ - одно целое число
-</output_format>
   </statement>
   <examples>
     <example>
-      <input>4 5
+      <input>1
 </input>
-      <output>-1
+      <output>4278190081
 </output>
     </example>
     <example>
-      <input></input>
-      <output></output>
+      <input>4278190081
+</input>
+      <output>1
+</output>
+    </example>
+    <example>
+      <input>2739690055
+</input>
+      <output>1548507719
+</output>
     </example>
   </examples>
 </problem>

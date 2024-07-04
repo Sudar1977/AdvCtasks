@@ -11,8 +11,15 @@
   </statement>
   <examples>
     <example>
-      <input></input>
-      <output>Hello world!
+      <input>6 1 2 3 2 0 3
+</input>
+      <output>2
+</output>
+    </example>
+    <example>
+      <input>3 5 2 -1
+</input>
+      <output>1
 </output>
     </example>
   </examples>

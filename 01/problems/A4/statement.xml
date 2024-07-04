@@ -4,29 +4,33 @@
         id="A4"
         type="standard">
   <statement language="ru_RU">
-    <title>Сумма и произведение трех чисел</title>
-    <description>Ввести три числа, найти их сумму и произведение.
+    <title>Поиск последовательности бит</title>
+    <description>На вход программе подается беззнаковое 32-битное целое число N и натуральное число K (1 ≤ K ≤ 31). Требуется взять K подряд идущихбитов числа N так, чтобы полученное число было максимальным. Программа должна вывести полученное число.
 </description>
-    <input_format>Три целых числа через пробел.
-</input_format>
-    <output_format>Строка вида<br/>
-%d+%d+%d=%d<br/>
-%d*%d*%d=%d
-</output_format>
   </statement>
   <examples>
     <example>
-      <input>1 2 3
+      <input>2 1
 </input>
-      <output>1+2+3=6
-1*2*3=6
+      <output>1
 </output>
     </example>
     <example>
-      <input>4 5 7
+      <input>12 3
 </input>
-      <output>4+5+7=16
-4*5*7=140
+      <output>6
+</output>
+    </example>
+    <example>
+      <input>3 5
+</input>
+      <output>3
+</output>
+    </example>
+    <example>
+      <input>1024 3
+</input>
+      <output>4
 </output>
     </example>
   </examples>

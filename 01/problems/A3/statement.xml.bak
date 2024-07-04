@@ -4,25 +4,33 @@
         id="A3"
         type="standard">
   <statement language="ru_RU">
-    <title>Сумма трех чисел</title>
-    <description>Ввести три числа, найти их сумму.
+    <title>Извлечение бит</title>
+    <description>На вход программе подается беззнаковое 32-битное целое число N и натуральное число K (1 ≤ K ≤ 31). Требуется взять K младших битов числа N и вывести полученное таким образом число.
 </description>
-    <input_format>Три целых числа
-</input_format>
-    <output_format>Строка вида %d+%d+%d=%d
-</output_format>
   </statement>
   <examples>
     <example>
-      <input>4 5 7
+      <input>2 1
 </input>
-      <output>4+5+7=16
+      <output>0
 </output>
     </example>
     <example>
-      <input>1 2 3
+      <input>12 3
 </input>
-      <output>1+2+3=6
+      <output>4
+</output>
+    </example>
+    <example>
+      <input>3 5
+</input>
+      <output>3
+</output>
+    </example>
+    <example>
+      <input>1024 3
+</input>
+      <output>0
 </output>
     </example>
   </examples>
