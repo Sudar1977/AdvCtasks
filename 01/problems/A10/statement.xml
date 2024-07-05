@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A9"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Распаковать порядок</title>
+    <description>Необходимо реализовать только одну функцию, которой на входе передаётся вещественное число в типе float, она возвращает порядок который хранится в поле EXP в виде десятичного целого числа. Функция должна строго соответствовать прототипу int extractExp(float)
+</description>
+  </statement>
+  <examples>
+    <example>
+      <input>1.0
+</input>
+      <output>127
+</output>
+    </example>
+    <example>
+      <input>2.0
+</input>
+      <output>128
+</output>
+    </example>
+    <example>
+      <input>3.99999
+</input>
+      <output>128
+</output>
+    </example>
+    <example>
+      <input>0.001
+</input>
+      <output>117
+</output>
+    </example>
+  </examples>
+</problem>

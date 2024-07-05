@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <problem
         package="ru.ejudge.sample_contest"
-        id="A9"
+        id="A8"
         type="standard">
   <statement language="ru_RU">
-    <title>Распаковать порядок</title>
-    <description>Необходимо реализовать только одну функцию, которой на входе передаётся вещественное число в типе float, она возвращает порядок который хранится в поле EXP в виде десятичного целого числа. Функция должна строго соответствовать прототипу int extractExp(float)
-</description>
+    <title>Упаковать массив</title>
+    <description>В программе реализована структура данных:
+struct pack_array {
+uint32_t array; // поле для хранения упакованного массива из 0 и 1
+uint32_t count0 : 8; // счетчик нулей в array
+uint32_t count1 : 8; // счетчик единиц в array
+}
+Необходимо реализовать только одну функцию (всю программу писать не надо!!!), которая упаковывает переданный ей массив из 32-ух
+элементов 0 и 1 в указанную структуру данных.
+Функция должна строго соответствовать прототипу: void array2struct(int [], struct pack_array *)</description>
   </statement>
   <examples>
     <example>
-      <input>1.0
+      <input>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 </input>
-      <output>127
+      <output>array = ffff0000
+count0 = 16
+count1 = 16
 </output>
     </example>
     <example>
-      <input>2.0
+      <input>1 1 1 1 1 1 1 1 1 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1
 </input>
-      <output>128
-</output>
-    </example>
-    <example>
-      <input>3.99999
-</input>
-      <output>128
-</output>
-    </example>
-    <example>
-      <input>0.001
-</input>
-      <output>117
+      <output>array = ffa70009
+count0 = 17
+count1 = 15
 </output>
     </example>
   </examples>
