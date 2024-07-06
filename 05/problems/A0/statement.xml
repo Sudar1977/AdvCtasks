@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A0"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Вычеркивание</title>
+    <description><p>Сколько различных трехзначных чисел можно получить из заданного натурального N, вычеркивая цифры из его десятичной записи?
+</p>
+</description>
+  </statement>
+  <examples>
+    <example>
+      <input>1111111111111111111111111
+</input>
+      <output>1
+</output>
+    </example>
+  </examples>
+</problem>
