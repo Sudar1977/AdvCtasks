@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A1"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Всего памяти</title>
+    <description>Описана структура данных для хранения информации об использованной памяти:
+typedef struct list {
+void *address;
+size_t size;
+char comment[64];
+struct list *next;
+} list;
+Требуется реализовать только одну функцию, которая анализирует данный список и возвращает сколько всего памяти используется. Адрес
+хранится в поле address, поле size - соответствующий размер данного блока. Если список пустой, то функция должна возвращать NULL.
+Прототип функции:
+size_t totalMemoryUsage(list *head)
+</description>
+  </statement>
+  <examples>
+    <example>
+      <input>3
+	  140525067852320 10
+	  140525067852350 30
+	  140525067852900 100
+</input>
+      <output>140
+</output>
+    </example>
+  </examples>
+</problem>

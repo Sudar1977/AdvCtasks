@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A1"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Префикс и суфикс</title>
+    <description>На стандартном потоке ввода задаются две символьные строки, разделённые символом перевода строки. Каждая из строк не превышает подлине 104. В строках не встречаются пробельные символы.
+На стандартный поток вывода напечатайте два числа, разделённых пробелом: первое число — длина наибольшего префикса первойстроки, являющегося суффиксом второй; второе число — наоборот, длина наибольшего суффикса первой строки, являющегося префиксомвторой. Сравнение символов проводите с учётом регистра (т.е. символы 'a' и 'A' различны).
+</description>
+  </statement>
+  <examples>
+    <example>
+      <input>don't_panic
+nick_is_a_mastodon
+</input>
+      <output>3 3
+</output>
+    </example>
+    <example>
+      <input>monty_python
+python_has_list_comprehensions
+</input>
+      <output>0 6
+</output>
+    </example>
+  </examples>
+</problem>
